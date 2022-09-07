@@ -30,7 +30,7 @@ const handleUserInput = function (input) {
   if (input === '\u0003') {
     process.exit();
   }
-  // message
+  // player message
   if (input === 'p') {
     connection.write("Say: Good Game!");
   }
