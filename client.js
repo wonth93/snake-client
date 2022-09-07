@@ -20,23 +20,7 @@ const connect = function() {
     console.log("Successfully connected to game server");
     conn.write("Name: MTW");
   });
-
-  // Move Commands
-  // conn.on("connect", () => {
-  //   setTimeout(() => {
-  //     conn.write("Move: up");
-  //   }, 1000);
-  //   setTimeout(() => {
-  //     conn.write("Move: up");
-  //   }, 2000);
-  //   setTimeout(() => {
-  //     conn.write("Move: up");
-  //   }, 3000);
-  //   setTimeout(() => {
-  //     conn.write("Move: up");
-  //   }, 4000);
-  // });
-
+  
   return conn;
 };
 
